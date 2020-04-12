@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="2" name="testRunner.TestRunner" time="66.734" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Omar Al-Faruque\IdeaProjects\CucumberSeleniumPracticeSDET"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Omar Al-Faruque\IdeaProjects\CucumberSeleniumPracticeSDET"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\OMARAL~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_221\bin&quot;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Users\Omar Al-Faruque\AppData\Local\Android\Sdk;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="maven.conf" value="C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Omar Al-Faruque"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Omar Al-Faruque"/>
+    <property name="java.class.path" value="C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Omar Al-Faruque\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Customers" name="Adding a Customer in NopCommerce" time="20.978"/>
+  <testcase classname="Customers" name="Search Customer with EmailID" time="13.255"/>
+  <testcase classname="nopcommerce admin test page" name="Login into nopcommerce" time="11.116"/>
+  <testcase classname="nopcommerce admin test page" name="Login into nopcommerce Data Driven" time="9.655"/>
+  <testcase classname="nopcommerce admin test page" name="Login into nopcommerce Data Driven" time="6.815">
+    <failure message="expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ✽.Page Title Should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+</failure>
+    <system-out>
+Scenario Outline: Login into nopcommerce Data Driven                         # Features/NopCommerce.feature:26
+  Given User launches Chrome browser                                         # stepDefinitions.NopCommerceSteps.user_launches_Chrome_browser()
+  When User opens URL &quot;https://admin-demo.nopcommerce.com/login&quot;             # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+  And User enters email as &quot;oalfaruque@gmail.com&quot; and password as &quot;15021972&quot; # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  Then Click on LOG IN                                                       # stepDefinitions.NopCommerceSteps.click_on_LOG_IN()
+Your store. Login
+  When Page Title Should be &quot;Dashboard / nopCommerce administration&quot;         # stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(java.lang.String)
+      org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ?.Page Title Should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+
+  Then Click in Logout                                                       # stepDefinitions.NopCommerceSteps.click_in_Logout()
+  When Page Title should be &quot;Your store. Login&quot;                              # stepDefinitions.NopCommerceSteps.page_Title_should_be(java.lang.String)
+  Then Close the browser                                                     # stepDefinitions.NopCommerceSteps.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}) on port 47148
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586648939.382][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+Apr 11, 2020 7:49:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="nopcommerce admin test page" name="Login into nopcommerce Data Driven" time="4.915">
+    <failure message="expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ✽.Page Title Should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+</failure>
+    <system-out>
+Scenario Outline: Login into nopcommerce Data Driven                         # Features/NopCommerce.feature:27
+  Given User launches Chrome browser                                         # stepDefinitions.NopCommerceSteps.user_launches_Chrome_browser()
+  When User opens URL &quot;https://admin-demo.nopcommerce.com/login&quot;             # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+  And User enters email as &quot;mikemiller@gmail.com&quot; and password as &quot;01012010&quot; # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  Then Click on LOG IN                                                       # stepDefinitions.NopCommerceSteps.click_on_LOG_IN()
+Your store. Login
+  When Page Title Should be &quot;Dashboard / nopCommerce administration&quot;         # stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(java.lang.String)
+      org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ?.Page Title Should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+
+  Then Click in Logout                                                       # stepDefinitions.NopCommerceSteps.click_in_Logout()
+  When Page Title should be &quot;Your store. Login&quot;                              # stepDefinitions.NopCommerceSteps.page_Title_should_be(java.lang.String)
+  Then Close the browser                                                     # stepDefinitions.NopCommerceSteps.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}) on port 10120
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586648946.251][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+Apr 11, 2020 7:49:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>

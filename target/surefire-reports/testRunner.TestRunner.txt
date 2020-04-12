@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.408 sec <<< FAILURE!
+Login into nopcommerce Data Driven(nopcommerce admin test page)  Time elapsed: 6.815 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administratio]n> but was:<[Your store. Logi]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ?.Page Title Should be "Dashboard / nopCommerce administration"(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+
+Login into nopcommerce Data Driven(nopcommerce admin test page)  Time elapsed: 4.915 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administratio]n> but was:<[Your store. Logi]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.NopCommerceSteps.login_Page_Title_Should_be(NopCommerceSteps.java:49)
+	at ?.Page Title Should be "Dashboard / nopCommerce administration"(file:///C:/Users/Omar%20Al-Faruque/IdeaProjects/CucumberSeleniumPracticeSDET/./Features/NopCommerce.feature:18)
+

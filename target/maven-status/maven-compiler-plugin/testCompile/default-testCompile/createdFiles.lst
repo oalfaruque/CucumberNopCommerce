@@ -1,0 +1,7 @@
+pageObjectRepository\NopCommercePageObjectRepository.class
+stepDefinitions\NopCommerceSteps.class
+common\CommonAPI.class
+testRunner\TestRunner.class
+pageObjectRepository\SearchCustomersPage.class
+stepDefinitions\OrangeHRMSteps.class
+pageObjectRepository\AddNewCustomerPage.class
